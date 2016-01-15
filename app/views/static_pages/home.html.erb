@@ -1,6 +1,9 @@
-<!DOCTYPE html>
-<html>
-    <h1>Mock-Twitter</h1>
-    <p>This is the home page for the Mock-Twitter</p>
-</html>
+<div class = "center jumbotron">
+    <h1>Welcome to Mock-Twitter</h1>
+    <h2>This is the home page for the Mock-Twitter</h2>
+    
+    <%= link_to "Sign up now!", signup_path, class: "btn btn-lg btn-primary" %>
+</div>
 
+<%= link_to image_tag("rails.png", alt: "Rails logo"),
+            'http://rubyonrails.org/' %>
